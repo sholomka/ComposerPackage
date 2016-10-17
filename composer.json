@@ -1,0 +1,55 @@
+{
+
+  "name": "sholomka",
+
+  "description": "package for the Composer, which will deal with the fact that from the remote host to upload images and save them on the file system.",
+
+  "keywords": [
+
+   "api"
+
+  ],
+
+  "homepage": "https://github.com/sholomka/ComposerPackage.git",
+
+  "license": "MIT",
+
+  "authors": [
+
+    {
+
+      "name": "Yuriy Sholom",
+
+      "email": "sholomka@gmail.com",
+
+      "homepage": "https://github.com/sholomka",
+
+      "role": "Developer"
+
+    }
+
+  ],
+
+  "require": {
+
+    "php" : ">=7.0.8"
+
+  },
+
+  "require-dev": {
+
+    "phpunit/phpunit" : "4.*"
+
+  },
+  
+  "extra": {
+
+    "branch-alias": {
+
+      "dev-master": "1.0-dev"
+
+    }
+
+  }
+
+}
