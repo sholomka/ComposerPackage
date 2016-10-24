@@ -25,17 +25,22 @@
   },
   "autoload": {
     "psr-4": {
-      "Sholomka\\Image\\": "src"
+      "Sholomka\\Image\\": "src",
+      "Sholomka\\Image\\Test\\": "tests"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Sholomka\\Image\\Test\\": "tests"
+      "Sholomka\\Image\\Test\\": "tests",
+      "Sholomka\\Image\\": "src"
     }
   },
   "extra": {
     "branch-alias": {
       "dev-master": "1.0-dev"
     }
+  },
+  "scripts": {
+    "test": "phpunit"
   }
 }
